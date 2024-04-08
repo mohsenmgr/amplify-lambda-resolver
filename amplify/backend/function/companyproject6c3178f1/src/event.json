@@ -1,0 +1,19 @@
+{
+  "typeName": "Mutation",
+  "fieldName": "editUser",
+  "identity": {
+    "claims": {
+      "sub": "r2d2xxxxxxxx"
+    }
+  },
+  "city": "Milano",
+  "email": "mohsenmgr@hotmail.com",
+  "firstname": "Moss",
+  "internalNote": "Computer eng",
+  "lastname": "Maghrebi",
+  "phone": "3884261087",
+  "ssn": "991",
+  "state": "Milano",
+  "streetAddress": "Via Trivulzio 14",
+  "zip": "90014"
+}

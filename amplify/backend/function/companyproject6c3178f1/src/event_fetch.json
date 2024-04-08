@@ -1,0 +1,9 @@
+{
+  "typeName": "Query",
+  "fieldName": "user",
+  "identity": {
+    "claims": {
+      "sub": "r2d2xxxxxxxx"
+    }
+  }
+}

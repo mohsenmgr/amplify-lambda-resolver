@@ -1,0 +1,37 @@
+type Customer
+@model
+@auth(rules: [
+  {allow: private, provider: iam},
+  {allow: groups, groups: ["management"]},
+  {allow: groups, groups: ["sales"], operations: [read, create, update]},
+])
+{
+  id: ID!
+  firstname: String
+  lastname: String
+  email: String
+  phone: String
+  streetAddress: String
+  city: String
+  state: String
+  zip: String
+  internalNote: String
+  ssn: String
+  @auth(rules: [{allow: private, provider: iam}])
+}
+
+type Query
+{
+  user: Customer
+  @function(name: "customerResolver-${env}")
+  @auth(rules: [{allow: private, provider: userPools}])
+}
+
+type Mutation
+{
+  editUser(
+    ssn: String
+  ): Customer
+  @function(name: "customerResolver-${env}")
+  @auth(rules: [{allow: private, provider: userPools}])
+}

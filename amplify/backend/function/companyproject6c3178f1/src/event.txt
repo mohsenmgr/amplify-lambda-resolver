@@ -1,0 +1,19 @@
+{
+  "typeName": "Mutation",
+  "fieldName": "editUser",
+  "identity": {
+    "claims": {
+      "sub": "r2d2xxxxxxxx"
+    }
+  },
+  "city": "Conversano",
+  "email": "mohsenmgr@gmail.com",
+  "firstname": "Mohsen",
+  "internalNote": "Software eng",
+  "lastname": "Faghfourmaghrebi",
+  "phone": "3884261087",
+  "ssn": "991",
+  "state": "Bari",
+  "streetAddress": "Via Ronchi 14",
+  "zip": "70014"
+}
