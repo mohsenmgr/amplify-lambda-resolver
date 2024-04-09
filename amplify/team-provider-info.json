@@ -13,7 +13,8 @@
     },
     "categories": {
       "auth": {
-        "companyproject48bcf7cf": {}
+        "companyproject48bcf7cf": {},
+        "userPoolGroups": {}
       },
       "api": {
         "companyproject": {}

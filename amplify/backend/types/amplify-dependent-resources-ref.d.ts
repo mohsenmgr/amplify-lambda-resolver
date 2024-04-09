@@ -14,6 +14,10 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolArn": "string",
       "UserPoolId": "string",
       "UserPoolName": "string"
+    },
+    "userPoolGroups": {
+      "managementGroupRole": "string",
+      "salesGroupRole": "string"
     }
   },
   "function": {
